@@ -4,6 +4,21 @@ body{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
+
+    
+h1{
+margin-top: 0px;
+font-size: 80px;
+color: #DCD7C9;
+}
+hr{
+    border: dotted 6px #DCD7C9;
+    border-bottom: none;
+    width: 4%;
+    border-width: thick;
+    margin: 100px auto;
+    
+}
 .top-container{
     background-color:#2C3639;
     position: relative;
@@ -13,13 +28,6 @@ body{
 .bottom-container{
     background-color: #DCD7C9;
     color: #395B64;}
-    
-
-h1{
-margin-top: 0px;
-font-size: 80px;
-color: #DCD7C9;
-}
 .intro2{
     color: #DCD7C9;
     font-weight: normal;
@@ -44,7 +52,7 @@ color: #DCD7C9;
     width: 50%;
     margin:0 auto 0 auto;
     padding: 10px;
-    padding-bottom: 120px;
+    padding-bottom: 10px;
     text-align: right;
 }
 .compimg{
@@ -69,4 +77,7 @@ svg{
     position: relative;
     bottom: 20px;
     margin-left: 30px;
+}
+.contact-me{
+    margin: 10px auto 200px;
 }
