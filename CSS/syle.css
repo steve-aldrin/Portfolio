@@ -100,7 +100,7 @@ svg{
     background-size: cover;
 }
 .layer{
-    background-image: url('/vectr/WAV1.svg');
+    background-image: url('../vectr/WAV1.svg');
 }
 .footer-link{
     color: #DCD7C9;
