@@ -84,39 +84,15 @@ svg{
     margin-left: 30px;
 }
 .contact-me{
-    margin: 10px auto 2px;
-
+    margin: 10px auto 200px;
 }
 .spacer{
-    aspect-ratio: 900/100;
+    aspect-ratio: 900/450;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .layer{
-    background-image: url('/vectr/WAV1.svg');
-}
-.footer-link{
-    color: #DCD7C9;
-    size: 100px;
-}
-.btn{
-    margin-bottom: 10%;
-    color: #000;
-    position: relative;
-    top:10px;
-}
-.btn{
-    top: 20px;
-    text-decoration: none;
-    transition: 1s;
-}
-.btn:hover{
-color: #A27B5C;
-font-size: large;
-transition: 1s;
-}
-ion-icon{
-    size: 100px;
+    background-image: url('/vectr/wave.svg');
 }
