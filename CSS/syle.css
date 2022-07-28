@@ -10,6 +10,7 @@ h1{
 margin-top: 0px;
 font-size: 80px;
 color: #DCD7C9;
+animation: anima 1s;
 }
 
 hr{
@@ -23,11 +24,13 @@ hr{
 p{
     margin-bottom: 0;
 }
+
+
 .top-container{
     background-color:#2C3639;
     position: relative;
     padding-top: 100px;
-    
+   
 }
 .bottom-container{
     color: #395B64;
@@ -36,6 +39,7 @@ background-color: #A27B5C;
 .intro2{
     color: #DCD7C9;
     font-weight: normal;
+    animation: anima 1s;
 }
 
 .bottom-cloud{
@@ -70,7 +74,8 @@ background-color: #A27B5C;
     bottom: 40px;
 }
 svg{
-    width:90%
+    width:90%;
+    animation: anima 1s;
 }
 .filmimg{
     width: 20%;
@@ -119,4 +124,15 @@ transition: 1s;
 }
 ion-icon{
     size: 100px;
+}
+@keyframes anima {
+    from    {
+       
+        transform: translateY(14px);
+
+    }
+    to{
+        
+    }
+    
 }
