@@ -121,6 +121,10 @@ svg{
 color: #A27B5C;
 font-size: large;
 transition: 1s;
+
+}
+.child1:hover{
+    color: #DCD7C9;;
 }
 ion-icon{
     size: 100px;
@@ -280,6 +284,12 @@ ion-icon{
             font-size: 50%;
         }
       }
-     .project{
-        color: #2C3639;
-     }
+ .project{
+    text-decoration: none;
+    color:
+ }
+ a, a:link, a:visited {
+    color:  #000000;
+    text-decoration: none;
+   
+  }
