@@ -220,4 +220,66 @@ ion-icon{
             width:100%;
             animation: anima 1s;
         }
+        .filmimg{
+            top: 13px;
+        }
+        .compimg{
+            top:2px;
+            margin-right: 16px;
+        }
+
     }
+    .project-section{
+        display: flex;
+        margin: 100px 0 300px 0;
+        justify-content: center;
+       
+    }
+    .child1{
+        flex: 1;
+        margin: 4%;
+        border: solid;
+        border-radius: 10%;
+        padding: 1% 0 2% 1%;
+    
+       
+    }
+    .child1:hover{
+        background-color: #2C3639;
+        
+    }
+    .vibranceimg:hover{
+        color: #DCD7C9;
+    }
+    .childdesc:hover{
+         color: #DCD7C9;
+    }
+    .vibranceimg{
+        border: #000000;
+        border-style: solid;
+        border-width: 1px;
+        width:70%;
+        border-radius: 10%;
+
+
+    }
+    .pdesc{
+        font-size:70%;
+        font-weight: bold;
+      
+    }
+    .childdesc{
+       
+        overflow-wrap: break-word;
+    }
+    @media (max-width: 800px) {
+        .project-section {
+          flex-direction: column;
+        }
+        .pdesc{
+            font-size: 50%;
+        }
+      }
+     .project{
+        color: #2C3639;
+     }
